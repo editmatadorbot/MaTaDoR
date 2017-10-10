@@ -22,8 +22,8 @@ local function plugin_exists( name )
 end
 
 local function list_all_plugins(only_enabled)
-  local tmp = '\n\n[MaTaDoRTeaM](Telegram.Me/MaTaDoRTeaM)'
-  local text = ''
+  local tmp = '\n\n[MaTaDoRTeaM](@id_admin_MaTaDoR)`
+   متن محلی = ''
   local nsum = 0
   for k, v in pairs( plugins_names( )) do
     --  ✔ enabled, ❌ disabled
