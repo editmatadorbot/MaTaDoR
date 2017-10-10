@@ -1098,9 +1098,9 @@ matches[3] then
 	if matches[1]:lower() == "sendplug" and matches[2] or matches[1]:lower() == "Sendplug" and matches[2] then
 	    local plug = "./plugins/"..matches[2]..".lua"
 		tdcli.sendDocument(msg.chat_id_, msg.id_,0, 
-1, nil, plug, '@MahDiRoO', dl_cb, nil)
-    end
-  end
+1 ، nil ، plug ، '@id_admin_MaTaDoR' ، dl_cb ، nil )
+    پایان
+  پایان
 
     if matches[1]:lower() == 'save' and matches[2] and is_sudo(msg) or matches[1]:lower() == 'Save' and matches[2] and is_sudo(msg) then
         if tonumber(msg.reply_to_message_id_) ~= 0  then
