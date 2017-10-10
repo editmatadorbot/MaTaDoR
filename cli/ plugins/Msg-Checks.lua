@@ -1,5 +1,5 @@
---Begin Msg-Checks.lua By @MahDiRoO
-local TIME_CHECK = 2
+- Bugin Msg-Checks.lua توسطadmin_MaTaDoR
+محلی  TIME_CHECK = 2
 local function pre_process(msg)
 local data = load_data(_config.moderation.data)
 local chat = msg.to.id
